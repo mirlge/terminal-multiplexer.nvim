@@ -2,6 +2,10 @@
 
 # terminal-multiplexer.nvim
 
+## Not maintained anymore
+
+This plugin is no longer maintained, because it's not necessary. tmux is enough.
+
 ## Installation
 
 ### Using [💤 lazy.nvim](https://github.com/folke/lazy.nvim)
@@ -43,4 +47,7 @@ require("terminal-multiplexer").setup({
 * `<prefix>$`: Rename current session
 * `<prefix><Esc>`: Get out of terminal mode
 
->!TIP if you are in terminal mode and press the key after the prefix key too slow, and therefore freeze your terminal, you can unfreeze your terminal with `<C-q>` (at least in bash and zsh)
+> [!NOTE]
+> if you are in terminal mode and press the key after the prefix key too slow,
+> and therefore freeze your terminal, you can unfreeze your terminal with `<C-q>`
+> (at least in bash and zsh)
